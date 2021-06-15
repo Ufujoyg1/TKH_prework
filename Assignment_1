@@ -1,0 +1,6 @@
+console.log("Hello user, what is your favorite food? ")
+var greeting = 
+
+
+fav_food = prompt("What is your favorite food?")
+console.log( "My favorite food is " + fav_food )  
