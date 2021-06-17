@@ -1,0 +1,22 @@
+var names_array = ["bob","jimmy","max b", "bernie", "jordan", "future hendrix"]
+
+var thing = "bob"
+thing[0]//c
+thing[2]//r
+array = [""]
+array[2]
+
+var Arr1 = ["bob","jimmy","max b", "bernie", "jordan", "future hendrix"],
+    Arr2 = [],
+    Arr3 = [];
+
+for (var i=0;i<Arr1.length;i++){
+    if ((i+2)%2==0) {
+        Arr3.push(Arr1[i]);
+    }
+    else {
+        Arr2.push(Arr1[i]);
+    }
+}
+
+console.log(Arr2);
